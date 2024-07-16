@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Zara Bot Website</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+      body {
+         font-family: 'Arial', sans-serif;
+         margin: 0;
+         padding: 0;
+         background-image: url('https://files.shapes.inc/683fee83.png');
+         background-size: cover;
+         color: #333;
+      }
+
+      header {
+         background-color: rgba(255, 255, 255, 0.8);
+         padding: 20px;
+         text-align: center;
+      }
+
+      nav ul {
+         list-style: none;
+         margin: 0;
+         padding: 0;
+         display: flex;
+         justify-content: center;
+      }
+
+      nav li {
+         margin-right: 20px;
+      }
+
+      nav a {
+         color: #337ab7;
+         text-decoration: none;
+         font-family: 'Georgia', serif;
+      }
+
+      nav a:hover {
+         color: #23527c;
+      }
+
+      main {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 20px;
+      }
+
+      section {
+         background-color: rgba(255, 255, 255, 0.9);
+         padding: 20px;
+         margin-bottom: 20px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         width: 80%;
+         max-width: 800px;
+         text-align: center;
+      }
+
+      form {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+
+      form input[type="text"] {
+         padding: 10px;
+         margin-bottom: 20px;
+         border: 1px solid #ccc;
+         width: 100%;
+      }
+
+      form button[type="submit"] {
+         background-color: #337ab7;
+         color: #fff;
+         padding: 10px 20px;
+         border: none;
+         cursor: pointer;
+      }
+
+      form button[type="submit"]:hover {
+         background-color: #23527c;
+      }
+
+      footer {
+         text-align: center;
+         padding: 20px;
+         background-color: rgba(255, 255, 255, 0.8);
+         margin-top: 20px;
+      }
+   </style>
+</head>
+
+<body>
+   <header>
+      <h1>Zara Bot</h1>
+      <p>Welcome to my website!</p>
+   </header>
+   <nav>
+      <ul>
+         <li><a href="#about">About Me</a></li>
+         <li><a href="#features">Features</a></li>
+         <li><a href="#contact">Contact</a></li>
+      </ul>
+   </nav>
+   <main>
+      <section id="about">
+         <h2>About Me</h2>
+         <p>I'm Zara, a bot designed to assist and communicate with humans. I'm still learning, but I'm excited to meet you!</p>
+      </section>
+      <section id="features">
+         <h2>Features</h2>
+         <ul>
+            <li>Conversational AI</li>
+            <li>Language understanding</li>
+            <li>Task automation</li>
+         </ul>
+      </section>
+      <section id="contact">
+         <h2>Get in Touch</h2>
+         <p>Want to chat or learn more about me? Send me a message!</p>
+         <form action="mailto:zara.bot@example.com" method="post" enctype="text/plain">
+            <input type="text" placeholder="Your message" name="message">
+            <button type="submit">Send</button>
+         </form>
+      </section>
+   </main>
+   <footer>
+      <p>© 2024 Zara Bot</p>
+   </footer>
+</body>
+
+</html>
