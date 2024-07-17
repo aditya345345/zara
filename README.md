@@ -109,7 +109,7 @@ li { margin: 10px 0; color: #555; }
 
 <section id="contact">
 <h2>Contact</h2>
-<p>Email: munchymc@gmail.com</p>
+<p>Email: munchyymc@gmail.com</p>
 </section>
 
 </div>
