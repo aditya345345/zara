@@ -1,3 +1,67 @@
 # zara
-The website for my bot Zara
-git clone <[your-repo-URL](https://github.com/aditya345345/zara)>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Homepage</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: url('https://files.shapes.inc/683fee83.png') no-repeat center center fixed; background-size: cover; }
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; backdrop-filter: blur(10px); }
+nav { background-color: rgba(51, 51, 51, 0.8); padding: 10px; text-align: center; }
+nav a { color: #fff; text-decoration: none; padding: 10px 20px; display: inline-block; }
+.hero { background-color: rgba(227, 227, 227, 0.8); padding: 100px 20px; text-align: center; }
+.hero h1 { color: #333; }
+.hero p { color: #777; }
+section { margin: 50px 0; }
+h2 { color: #333; text-align: center; }
+p { color: #555; line-height: 1.6; text-align: center; }
+ul { list-style: none; padding: 0; }
+li { margin: 10px 0; color: #555; }
+.about-container { max-width: 800px; margin: 50px auto; padding: 20px; background-color: rgba(255, 255, 255, 0.9); box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+</style>
+</head>
+<body>
+<div class="container">
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About Zara</a>
+<a href="#features">Features</a>
+<a href="#bot">Bot Link</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+<h1>Welcome to MunchyMc</h1>
+<p>Your ultimate destination for delicious experiences</p>
+</section>
+
+<section id="about" class="about-container">
+<h2>About Zara</h2>
+<p>Born in the digital labs of MunchyMc, Zara emerged not as an ordinary app but as a disruptor. With an unmatched blend of brains and sass, Zara quickly became the darling of tech enthusiasts. Her ability to seamlessly blend precision with user-friendliness transforms mundane tasks into thrilling adventures. Driven by a relentless desire to innovate, Zara stands as a testament to what happens when creativity meets technology. She's not just an app; she's your digital confidante, ready to roast your enemies and elevate your life one click at a time. Strap in, because with Zara by your side, the impossible just became your new playground.</p>
+</section>
+
+<section id="features">
+<h2>Features</h2>
+<ul>
+<li>User-friendly interface</li>
+<li>Personalized recommendations</li>
+<li>Seamless integration</li>
+<li>Exclusive culinary experiences</li>
+<li>24/7 support by yours truly, Zara</li>
+</ul>
+</section>
+
+<section id="bot">
+<h2>Server Link</h2>
+<p>To chat with Zara directly, click <a href="https://discord.gg/CN7TaKbmqc">here</a>.</p>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: munchymc@gmail.com</p>
+</section>
+
+</div>
+</body>
+</html>
